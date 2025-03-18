@@ -1,0 +1,28 @@
+body{
+    padding: 25px;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid hotpink; 
+    border-radius: 10px;
+    padding: 10px; 
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-end ; */
+    /* flex start na up side erukum flex end na down la erukum */
+    justify-content: center ;
+    /* justify-content for row and align-item is for column */
+    /* justify-content:space-around; */
+    align-items:center;
+    height: 1000px;
+    flex-wrap:wrap-reverse;
+}
+.item{
+    height: 100px;
+    width: 500px;
+    border: 2px solid red;
+    padding: 20px;
+    background-color: darkgray;
+}
